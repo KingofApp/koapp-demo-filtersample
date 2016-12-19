@@ -1,0 +1,13 @@
+{
+  "name": "filtersample",
+  "authors": "Francisco Quesada",
+  "description": "",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "http://kingofapp.es",
+  "private": true,
+  "dependencies": {}
+}
