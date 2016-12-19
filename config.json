@@ -1,0 +1,52 @@
+{
+  "name": "filtersample",
+  "identifier": "filtersample",
+  "description": {
+    "es-ES": "",
+    "en-US": ""
+  },
+  "documentation": {
+    "es-ES": "",
+    "en-US": ""
+  },
+  "descriptionShort": {
+    "es-ES": "",
+    "en-US": ""
+  },
+  "icon": "room",
+  "type": "A",
+  "version": "0.0.1",
+  "author": "King of App",
+  "category": [""],
+  "price": ,
+  "subscription": false,
+  "canContain": false,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "libs": [],
+  "config": [],
+  "showOn": {
+    "menu": true,
+    "market": true,
+    "dragDrop": true
+  },
+  "images": {
+    "list": "modules/filtersample/images/list.png",
+    "screenshots": [
+      "modules/filtersample/images/screenshot01.png"
+    ],
+    "popover": "modules/filtersample/images/popover.png",
+    "banner": "modules/filtersample/images/banner.png",
+    "logo": "modules/filtersample/images/logo.png"
+  },
+  "view": "modules/filtersample/index.html",
+  "files": [
+    "modules/filtersample/controller.js", "modules/filtersample/style.html", "modules/filtersample/filter.js"
+  ],
+  "scope": {
+    "blank" : true
+  }
+}

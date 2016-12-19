@@ -1,0 +1,8 @@
+<div class="module filterSample" ng-controller="FilterSampleController">
+    <!-- write your module html here -->
+    <koa-textarea label="{{'filterSample.writeHere' | translate}}" ng-model="text.input"></koa-textarea>
+    <koa-button ng-click="translate()"> {{'filterSample.clickHere' | translate}} </koa-button>
+    <pre>{{textToEmoji | toEmoji:emojiList}}</pre>
+
+    <!-- end module html -->
+</div>
