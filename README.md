@@ -9,11 +9,13 @@ We use the following [Koa elements](https://github.com/KingofApp/docs/tree/maste
 The koa-textarea is the input of the text which is going to be transformed :
 
 ```javascript
-<koa-textarea label="{{'filterSample.writeHere' | translate}}" ng-model="text.input"></koa-textarea>```
+<koa-textarea label="{{'filterSample.writeHere' | translate}}" ng-model="text.input"></koa-textarea>
+```
 
 In the koa-button we use ng-click to call a ```traslate``` function wich manage assign the value of the input to the filter.
 ```javascript
-<koa-button ng-click="translate()"> {{'filterSample.clickHere' | translate}} </koa-button>```
+<koa-button ng-click="translate()"> {{'filterSample.clickHere' | translate}} </koa-button>
+```
 
 The list of emojis comes from ```emoji.json```. The filter separate words by spaces from input and replace each one by a emoji if exists in the list. The filter is in the file filter.js and it has the following code:
 
