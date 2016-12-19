@@ -1,4 +1,0 @@
-# Documentación
-
-### filterSample
-
