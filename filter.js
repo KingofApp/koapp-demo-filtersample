@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  
+
   angular
     .module("filterSample")
     .filter('toEmoji', toEmoji);
@@ -14,7 +14,7 @@
       if(params){
         for(var word in inputArray){
           out += params.data[inputArray[word]] || inputArray[word];
-          out += " ";
+          out += ' ';
         }
       }
       return out;
